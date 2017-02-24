@@ -1,0 +1,121 @@
+@charset "UTF-8";
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*desktop view*/
+body {
+    margin: 0;
+    border: 0;
+    background: #fff;
+    color: #000000;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
+}
+
+nav{
+    font-size: 1em;
+    float: right;
+    position: absolute;
+}
+
+.intro {
+    margin: 0 auto;
+    padding: 5%}
+
+.greeting{
+    font-size: .76em;
+    float: left; 
+    margin-left: 23%;}
+/*.Iam{font-size: .7em; float: left;} */
+
+.name {
+    font-family: "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
+    font-size: 5.5em;
+    line-height: 5.5em;
+    text-align: center, auto;}
+
+.typedesigner{
+    text-align: center;
+}
+
+
+.motto{
+    padding-top:.16em;
+    font-family: "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 20.762em;
+    line-height: 1.16em;
+    text-align: center, auto;
+    border: 0em;
+    margin: 0;}
+
+.bullets{
+    font-family: "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
+    font-weight: 100;
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 0;
+    font-kerning: inherit;
+    padding-bottom: 1em;}
+
+.portitle{
+    font-family: "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
+  font-size: 4em;
+    font-weight: 400;
+    padding: 20%;
+    align-content: center;
+    text-align: center;
+}
+
+/*tablet view*/
+@media (max-width: 768px) {.intro{
+    margin: 0 auto;
+    padding: 0, auto;
+    padding-bottom: 13em;
+    padding-top: 7em;}
+    
+.greeting{
+    font-size: .7em;
+    float: left;
+    margin-left: 0%;}
+/*.Iam{font-size: .7em; float: left;} */
+    
+.name {font-family: "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif; font-size: 4em; line-height: 0em; text-align: center; margin: 0em, 0em, 5em, 5em;}
+    
+.typedesigner{text-align: center}
+
+    .bigmotto{padding-bottom: 4em;}
+.motto{ font-family: "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif; font-weight: 900; width: 0, auto; font-size: 11.7em; line-height: .9em; text-align: center, auto;}
+
+.bullets{ "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif; font-weight: 100; font-size: 1.4em; text-align: center; padding-top: 0; margin-top: 0; line-height: 2em;}
+
+.portitle{ align-content: center; text-align: center; padding: 3em; font-family: "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
+  font-size: 2.5em; font-weight: 600; text-align: center;
+}}
+
+
+/*mobile view*/
+@media (max-width: 400px) {
+    .intro {margin: 0 auto; padding: 2%; padding-bottom: 0; padding-top: 9em;}
+.greeting{font-size: .7em; margin-left: 20%}
+/*.Iam{font-size: .7em; float: left;} */
+.name {padding-top: .75em; font-family: "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif; font-size: 2em; text-align: center;}
+    
+.typedesigner{text-align: center; font-size: 90%}
+
+    .bigmotto{padding-bottom: 3em; padding-top: 6em;}
+.motto{ font-family: "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif; font-weight: 600; font-size: 100%; line-height: 10em; text-align: center, auto;}
+
+.bullets{ padding: 2%; "Acumin-Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif; font-weight: 100; font-size: 1em; text-align: center; padding-top: .4em; margin-top: 0; line-height: 1.4em; text-align: center}
+
+.portitle{ align-content: center; text-align: center; padding: 3em; font-family: "Acumin-Pro", "Helvetica Neue", "Helvetica", "Lucida Grande", "Arial", sans-serif;
+  font-size: 2.5em; font-weight: 900; text-align: center;
+}}
